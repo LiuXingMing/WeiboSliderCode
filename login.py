@@ -9,7 +9,6 @@
 import time
 import random
 from PIL import Image
-import StringIO
 from math import sqrt
 from ims import ims
 from selenium import webdriver
@@ -23,7 +22,8 @@ def getType(browser):
     """ 识别图形路径 """
     ttype = ''
     time.sleep(3.5)
-    im = Image.open(StringIO.StringIO(browser.get_screenshot_as_png())).crop((400, 310, 630, 530)).convert('L')
+    browser.save_screenshot('aa.png')
+    im = Image.open('aa.png').crop((400, 310, 630, 530)).convert('L')
     width = im.size[0]
     height = im.size[1]
     for png in ims.keys():
