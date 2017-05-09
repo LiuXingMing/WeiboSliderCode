@@ -2,7 +2,7 @@
 m.weibo.cn登录，四宫格图形解锁验证码破解
 
 <br><br>
-详情请见博客：[《图形解锁破解（附Python代码）》](http://blog.csdn.net/bone_ace/article/details/71056741)）。
+详情请见博客：[《图形解锁破解（附Python代码）》](http://blog.csdn.net/bone_ace/article/details/71056741)。
 <br><br><br>
 20170422更新：
 <br>
