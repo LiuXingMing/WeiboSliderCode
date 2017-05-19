@@ -118,7 +118,7 @@ def draw(browser, ttype):
 if __name__ == '__main__':
     browser = webdriver.Chrome()
     browser.set_window_size(1050, 840)
-    browser.get('https://passport.weibo.cn/signin/login?entry=mweibo&r=http://weibo.cn/')
+    browser.get('https://passport.weibo.cn/signin/login?entry=mweibo&r=https://weibo.cn/')
 
     time.sleep(1)
     name = browser.find_element_by_id('loginName')
